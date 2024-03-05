@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.button {
+  background-color: #fdb479; /* Green */
+	margin: 2px;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 16px;
+}
+
+.button1{
+	margin: 2px;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 16px;
+}
+.button2{
+  
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 16px;
+}
+.button3{
+     background-color:Green;
+     margin: 2px;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 16px;
+
+}
+.button4{
+    background-color:red;
+    margin: 2px;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 16px;
+  
+}
+.text{
+    width: 130px;
+    border-radius: 4px;
+}
+
+
+</style>
+
+<body>
+
+    <center>
+        <h3>Calculator</h3>
+        <input type="text" name="no" id="no" class="text"><br><br>
+        <button onclick="clearAll('C')"class="button4">C</button>
+        <button onclick="addData('()')"class="button1">()</button>
+        <button onclick="addData('%')"class="button1">%</button>
+        <button onclick="addData('/')"class="button1">/</button><br><br>
+        <button onclick="addData('7')"class="button">7</button>
+        <button onclick="addData('8')"class="button">8</button>
+        <button onclick="addData('9')"class="button">9</button>
+        <button onclick="addData('*')"class="button1">*</button><br><br>
+        <button onclick="addData('4')"class="button">4</button>
+        <button onclick="addData('5')"class="button">5</button>
+        <button onclick="addData('6')"class="button">6</button> 
+        <button onclick="addData('-')"class="button1">-</button><br><br>
+        <button onclick="addData('1')" class="button">1</button>
+        <button onclick="addData('2')"class="button">2</button>
+        <button onclick="addData('3')"class="button">3</button>
+        <button onclick="addData('+')"class="button1">+</button><br><br>
+        <button onclick="addData('+/-')"class="button">+/-</button>
+        <button onclick="addData('0')"class="button">0</button> 
+        <button onclick="addData('.')"class="button">.</button> 
+        <button onclick="getAns()"class="button3">=</button> <br><br>
+           
+
+  
+    </center>
+</table>
+    <script src="calc.js"></script>
+<body>
+</html>
